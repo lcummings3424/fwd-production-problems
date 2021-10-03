@@ -1,24 +1,27 @@
 <!DOCTYPE html>
-<html id="home" lang="en">
+<html lang="en">
 <head>
   <!--Hint: avoid decorative punctuation marks in <title> tags -->
-  <title>HTML Antipatterns | Never Do These Things</title>
+  <title>HTML Antipatterns Never Do These Things</title>
   <!--Hint: Don't add extra space around `=` signs in attribute-value pairs-->
   <meta charset = "utf-8" />
   <meta name = "viewport" content = "width=device-width,initial-scale=1.0,shrink-to-fit=no" />
   <link rel = "stylesheet" href = "screen.css" />
+</head>
 <body>
 <h1><a href="http://example.com/index.html" rel="home">HTML Antipatterns</a></h1>
   <header id="header">
     <nav id="navigation">
       <!--Hint: Match navigation labels with memorable paths/URLs-->
+<ul>
       <li><a href="home.html">Home</a></li>
       <li><a href="../my-res/">Resume</a></li>
       <li><a href="randomstuff/">Interests</a></li>
+    </ul>
     </nav>
   </header>
   <!--Hint: Watch for duplicate and non-semantic classes and IDs-->
-  <main id="home">
+  <main>
     <article id="primary" class="green-background">
       <h2><b>About Me</b></h2>
       <h3><i>3rd-Year ITM Undergraduate</i></h3>
