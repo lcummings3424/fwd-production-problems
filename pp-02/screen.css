@@ -1,4 +1,4 @@
-* http://meyerweb.com/eric/tools/css/reset/
+/* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -8,7 +8,22 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 
 /* Begin site styles below */
 html {
-font-size: 16px;
-line-height: 20px
-
+font-size: 1.25em; /* 18 / 16 =1..125 */
+line-height: 1.3em; /* 24 / 18 */
+font-family: "Time's New Roman", Arial, Times
 }
+body {
+  background-color: white;
+}
+footer {
+  font-size: 0.75em; /* 12 / 16 = 0.75 */
+   padding-top: 1em;
+}
+h2 {
+  font-size: 1.56em; /* 25 / 16 = 1.56 */
+  }
+  ul,li {
+    padding-bottom: 1em;
+color: rgb(128,128,128)
+     }
+  
