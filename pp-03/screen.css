@@ -17,18 +17,22 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 }
 #three {
   background-color: purple;
+
 }
 #two {
   background-color: green;
+
 }
 #one {
   background-color: red;
+
 }
 
 
 /* ==== LAYOUT STYLES ==== */
 #content {
-
+display: flex;
+flex-flow: column-reverse nowrap;
 }
 
 #three,
